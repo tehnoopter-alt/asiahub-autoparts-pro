@@ -32,10 +32,10 @@ export const Header = () => {
           : "bg-transparent"
       )}
     >
-      <div className="container-x flex h-20 items-center justify-between">
+      <div className="container-x flex h-28 items-center justify-between">
         <a href="#top" className="flex items-center gap-3">
-          <div className="rounded-lg bg-foreground/95 px-3 py-1.5">
-            <img src={logo} alt="ASIAHUB логотип" className="h-8 w-auto md:h-9" width={200} height={40} />
+          <div className="rounded-lg bg-foreground/95 px-4 py-2">
+            <img src={logo} alt="ASIAHUB логотип" className="h-24 w-auto md:h-[6.75rem]" width={600} height={120} />
           </div>
         </a>
 

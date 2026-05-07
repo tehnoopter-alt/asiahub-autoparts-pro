@@ -32,9 +32,9 @@ export const Header = () => {
           : "bg-transparent"
       )}
     >
-      <div className="container-x flex h-28 items-center justify-between">
+      <div className="container-x flex h-20 items-center justify-between">
         <a href="#top" className="flex items-center gap-3">
-          <img src={logo} alt="ASIAHUB логотип" className="h-24 w-auto md:h-[6.75rem]" width={600} height={120} />
+          <img src={logo} alt="ASIAHUB логотип" className="h-12 w-auto rounded-xl md:h-14" width={400} height={80} />
         </a>
 
         <nav className="hidden items-center gap-8 lg:flex">

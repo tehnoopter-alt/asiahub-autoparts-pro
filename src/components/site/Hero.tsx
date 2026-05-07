@@ -1,6 +1,7 @@
 import { ArrowRight, ShieldCheck, Truck, Globe2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import heroImg from "@/assets/hero-noskat.jpg";
+import gendirImg from "@/assets/gendir.png";
 
 export const Hero = () => {
   return (
@@ -9,6 +10,26 @@ export const Hero = () => {
       <div className="absolute -top-40 right-0 h-[500px] w-[500px] rounded-full bg-primary/20 blur-[120px]" aria-hidden />
 
       <div className="container-x relative">
+        <div className="mb-12 flex justify-center animate-fade-up">
+          <figure className="group relative">
+            <div className="absolute -inset-3 rounded-[1.75rem] bg-gradient-accent opacity-25 blur-2xl transition-opacity group-hover:opacity-40" aria-hidden />
+            <div className="relative overflow-hidden rounded-2xl border border-border bg-card shadow-elegant">
+              <img
+                src={gendirImg}
+                alt="Ген. директор Матюненко В. Г."
+                className="h-72 w-56 object-cover sm:h-80 sm:w-64"
+                width={520}
+                height={693}
+                loading="eager"
+              />
+              <figcaption className="border-t border-border bg-background/80 px-4 py-3 text-center backdrop-blur">
+                <p className="text-[10px] uppercase tracking-widest text-muted-foreground">Генеральный директор</p>
+                <p className="mt-1 text-sm font-semibold text-foreground">Матюненко В. Г.</p>
+              </figcaption>
+            </div>
+          </figure>
+        </div>
+
         <div className="grid gap-14 lg:grid-cols-[1.05fr_1fr] lg:gap-10 lg:items-center">
           <div className="animate-fade-up">
             <div className="eyebrow mb-6">

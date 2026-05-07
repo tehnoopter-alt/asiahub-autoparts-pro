@@ -34,9 +34,7 @@ export const Header = () => {
     >
       <div className="container-x flex h-28 items-center justify-between">
         <a href="#top" className="flex items-center gap-3">
-          <div className="rounded-lg bg-foreground/95 px-4 py-2">
-            <img src={logo} alt="ASIAHUB логотип" className="h-24 w-auto md:h-[6.75rem]" width={600} height={120} />
-          </div>
+          <img src={logo} alt="ASIAHUB логотип" className="h-24 w-auto md:h-[6.75rem]" width={600} height={120} />
         </a>
 
         <nav className="hidden items-center gap-8 lg:flex">

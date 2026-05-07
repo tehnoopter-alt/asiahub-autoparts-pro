@@ -1,6 +1,7 @@
 import { ArrowRight, ShieldCheck, Truck, Globe2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import heroImg from "@/assets/hero-noskat.jpg";
+import gendirImg from "@/assets/gendir.png";
 
 export const Hero = () => {
   return (

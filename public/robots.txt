@@ -12,3 +12,5 @@ Allow: /
 
 User-agent: *
 Allow: /
+
+Sitemap: https://asiahub-autoparts-pro.lovable.app/sitemap.xml

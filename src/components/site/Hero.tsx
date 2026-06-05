@@ -21,6 +21,8 @@ export const Hero = () => {
                 width={520}
                 height={693}
                 loading="eager"
+                decoding="async"
+                fetchPriority="high"
               />
               <figcaption className="border-t border-border bg-background/80 px-4 py-3 text-center backdrop-blur">
                 <p className="text-[10px] uppercase tracking-widest text-muted-foreground">Генеральный директор</p>

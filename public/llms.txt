@@ -6,7 +6,14 @@ ASIAHUB (ООО «АЗИЯ ХАБ», Санкт-Петербург) занима
 
 ## Pages
 
-- [Главная](/): Каталог ноускатов, процесс заказа, о компании, отзывы и контакты.
+- [Главная](https://asiahub.site/): Каталог ноускатов, процесс заказа, о компании, отзывы и контакты.
+- [Каталог](https://asiahub.site/catalog): Все ноускаты премиум-марок с ценами и годами выпуска.
+- [BMW](https://asiahub.site/catalog/bmw): Ноускаты BMW.
+- [Mercedes](https://asiahub.site/catalog/mercedes): Ноускаты Mercedes-Benz.
+- [Audi](https://asiahub.site/catalog/audi): Ноускаты Audi.
+- [Porsche](https://asiahub.site/catalog/porsche): Ноускаты Porsche.
+- [Lexus](https://asiahub.site/catalog/lexus): Ноускаты Lexus.
+- [Toyota](https://asiahub.site/catalog/toyota): Ноускаты Toyota.
 
 ## Контакты
 

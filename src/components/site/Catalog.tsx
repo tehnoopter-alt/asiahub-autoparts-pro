@@ -111,7 +111,8 @@ export const Catalog = () => {
         </div>
 
         <p className="mt-10 text-center text-sm text-muted-foreground">
-          Не нашли свою модель? <a href="#contacts" className="font-semibold text-primary hover:underline">Оставьте заявку</a> — найдём за 24 часа.
+          Смотреть <a href="/catalog" className="font-semibold text-primary hover:underline">полный каталог</a> или{" "}
+          <a href="#contacts" className="font-semibold text-primary hover:underline">оставьте заявку</a> — найдём модель за 24 часа.
         </p>
       </div>
     </section>

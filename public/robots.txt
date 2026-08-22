@@ -1,6 +1,10 @@
 User-agent: Googlebot
 Allow: /
 
+User-agent: Yandex
+Allow: /
+Clean-param: utm_source&utm_medium&utm_campaign&utm_term&utm_content
+
 User-agent: Bingbot
 Allow: /
 
@@ -13,4 +17,4 @@ Allow: /
 User-agent: *
 Allow: /
 
-Sitemap: https://asiahub-autoparts-pro.lovable.app/sitemap.xml
+Sitemap: https://asiahub.site/sitemap.xml
